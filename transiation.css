@@ -1,0 +1,40 @@
+.container{
+    width: 300px;
+    position: relative;
+    border: 3px solid tomato;
+    text-align: center;
+    height: 300px;
+    margin: 10px;
+  
+   
+   
+}
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container img{
+    width: 100%;
+ 
+}
+.container .write{
+    display: none;
+}
+.container:hover .write{
+    display: block;
+
+}
+.write{
+    position: absolute; 
+    top: 0px;
+    background-color: rgba(235, 104, 81, 0.555);
+    color: white;
+    height: 300px;
+    width: 300px;
+ 
+}
+.container:hover img{
+    transform: scale(1.2);
+    overflow: hidden;
+}
